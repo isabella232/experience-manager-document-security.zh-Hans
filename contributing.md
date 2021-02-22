@@ -1,54 +1,61 @@
 ---
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
-# 贡献
+# 投稿
 
-感谢您选择贡献！
+感谢您选择投稿！
 
-以下是为此项目提供帮助时要遵循的一套准则。
+以下是在向本项目投稿时需要遵守的一组指南。
 
 ## 行为准则
 
-此项目遵循 Adobe [行为准则](code-of-conduct.md)。如果参与，请遵守本准则。请将不可接受的行为报告给 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)。
+此项目遵循 Adobe [行为准则](code-of-conduct.md)。如果参与，
+请遵守本准则。请将不可接受的行为报告给 
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)。
 
-## 参与者指南文档
+## 投稿人指南文档
 
-请参阅[Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+请参阅[投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
-## 有问题吗？
+## 还有疑问？
 
-开始。 此项目的现有提交者需要
-就项目方向达成共识，在问题线程内解决问题
-（如果适用）。
+请从填写问题开始。此项目上的现有提交人致力于在项目方向上
+达成共识，并在问题帖子中发布解决方案
+（在适用时）。
 
-## 参与者许可协议
+## 投稿人许可协议
 
-所有第三方对此项目的捐款都必须由签署的捐款人提供
-许可协议。 这将允许 Adobe 在项目中再次分发您贡献的内容。[签署我们的CLA](http://opensource.adobe.com/cla.html)。您只需提交一次 Adobe CLA 即可，因此，如果您以前已经提交过，则无需再次提交！
+此项目的所有第三方投稿人必须随附已签署的投稿人
+许可协议。这将允许 Adobe 在项目中再次分发
+您贡献的内容。[签署我们的 CLA](http://opensource.adobe.com/cla.html). 您
+只需提交一次 Adobe CLA 即可，因此，如果您以前已经提交过，
+则无需再次提交！
 
-## 代码审阅
+## 代码审核
 
-所有提交都应采用提取请求的形式，并且需要由项目提交者进行审核。请阅读 [GitHub 的提取请求文档](https://help.github.com/cn/articles/about-pull-requests/)，了解有关发送提取请求的更多信息。
+所有提交都应采用提取请求的形式，并且需要由项目提交者
+进行审核。请阅读 [GitHub 的提取请求文档](https://help.github.com/cn/articles/about-pull-requests/)，
+了解有关发送提取请求的更多信息。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## 从参与者到提交者
+## 从投稿人到提交人
 
-我们喜欢来自我们社区的贡献！ 如果您想超越参与者
-成为具有完全写入访问权限的提交者，并在项目中发言，您必须
-被邀请参加该项目。 现有提交者采用内部提名
-在邀请之前必须达成懒惰一致（沉默即批准）的进程
-。 如果你觉得自己有资格，想更深入地参与，
-请随时与现有提交者联系，就此进行交谈。
+我们喜欢来自社区的投稿！如果您希望从投稿人更进一步
+并成为具有完整写入权限和项目发言权的提交人，您必须
+受邀加入项目。现有提交人采用内部提名
+流程，必须在发布邀请之前达成默认共识
+（不表态即批准）。如果您觉得您符合条件并且希望更深入地参与，
+请随时联系现有提交人以进行讨论。
 
 ## 安全问题
 
-不应在此问题跟踪器上报告安全问题。 相反，[将问题提交给我们的安全专家](https://helpx.adobe.com/security/alertus.html)
+在此问题跟踪程序上不应报告安全问题，而是应该[向我们的安全专家提交问题](https://helpx.adobe.com/cn/security/alertus.html)

@@ -9,11 +9,11 @@ tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial#recommended/solu
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.zh-Hans
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29c078e0820b42b53eb65061893e45c8cb63e549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ metadata.md 文件中包含存储库级别的元数据，这些元数据会传�
 | mini-toc-levels | 确定显示在右边栏中的标题级别数量。默认值为 2 |
 | git-repo | 指定供内部使用的主存储库的位置 |
 
-在TOC.md文件中
+在 TOC.md 文件中
 
 | 元数据 | 用途 |
 |--- |--- |
-| 用户指南标题 | 在文章标题中用作链接 |
+| user-guide-title | 在文章标题中用作链接 |
 | user-guide-url | 打开 helpx 中心页面 |

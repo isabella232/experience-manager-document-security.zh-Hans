@@ -2,13 +2,13 @@
 cloud: Experience Cloud
 product: adobe experience manager
 solution: Experience Manager
-type: 文档
+type: Documentation
 audience: end-user
 user-guide-title: Adobe Experience Manager 文档安全指南
 breadcrumb-title: 文档安全指南
 user-guide-description: Document Security Extension for Microsoft® Office 可确保只有经您授权的人员才能使用包含您的知识产权的 Word、Excel 和 PowerPoint 文件。
-feature: 文档安全
-role: 商务从业人员
+feature: Document Security
+role: Business Practitioner
 translation-type: ht
 source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
 workflow-type: ht

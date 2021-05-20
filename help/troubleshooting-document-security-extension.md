@@ -7,9 +7,8 @@ content-type: reference
 topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
-translation-type: ht
 source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -35,7 +34,7 @@ Windows 注册表中的 LoadBehavior 属性指定文档安全插件的运行时�
 
 有关 LoadBehavior 的详细信息，请参阅 [VSTO 增益集的注册表项](https://msdn.microsoft.com/en-us/library/bb386106.aspx#LoadBehavior)一文。
 
-## 管理任务疑难解答{#admintasks}
+## 管理任务疑难解答 {#admintasks}
 
 此部分讨论安装 AEM Document Security Extension 时的可能问题。
 

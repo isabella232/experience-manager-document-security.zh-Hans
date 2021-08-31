@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
+source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
 workflow-type: tm+mt
-source-wordcount: '2796'
-ht-degree: 100%
+source-wordcount: '2764'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >
 >支持在 64 位操作系统上安装 32 位版本的 Document Security Extension，但反之则不支持。无法在 32 位操作系统上安装 64 位版本的 Document Security Extension for Microsoft Office。
 
-### 禁用 McAfee VirusScan {#disable-mcafee-virusscan}
+### 禁用 McAfee VirusScan  {#disable-mcafee-virusscan}
 
 在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 应用程序的第三方插件。由于此扩展与第三方插件冲突，在安装 Document Security for Microsoft Office 之前，请卸载 Microsoft Office 的任意非 Adobe 插件。Adobe 不提供对安装了第三方插件的 Document Security for Microsoft Office 应用程序的支持。
 
-## 系统要求{#system-requirements}
+## 系统要求 {#system-requirements}
 
 ### Document Security Extension 客户端 {#document-security-extension-client}
 
@@ -103,7 +103,13 @@ AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 
 
 ### 自定义安装程序的先决条件 {#prerequisites-for-customizing-the-installer}
 
-使用 Orca 数据库编辑器自定义安装程序。以下步骤描述了如何使用 Orca 数据库编辑器，通过修改 MSI 安装文件的副本来创建自定义 MSI 文件。Orca 作为 Windows SDK for Windows Server 2008 和 .NET Framework 3.5 的一部分提供。有关如何使用 Orca 编辑 Microsoft Windows® 安装程序文件的更多信息，请参阅 [Microsoft 支持](http://support.microsoft.com/kb/255905/EN-US/)。
+使用 Orca 数据库编辑器自定义安装程序。以下步骤描述了如何使用 Orca 数据库编辑器，通过修改 MSI 安装文件的副本来创建自定义 MSI 文件。Orca作为适用于Windows Server 2008和.NET Framework 3.5的Windows SDK的一部分提供。
+
+<!--
+
+For more information about how to edit Microsoft Windows® Installer files using Orca, see [Microsoft Support](http://support.microsoft.com/kb/255905/EN-US/).
+
+-->
 
 >[!NOTE]
 >
@@ -111,7 +117,7 @@ AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 
 
 #### 安装 Orca {#install-orca}
 
-1. 从 [Microsoft 下载中心](http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=11310)下载 Windows SDK for Windows Server 2008 和 .NET Framework 3.5。
+1. 下载适用于Windows Server 2008和.NET Framework 3.5的Windows SDK。
 1. 双击 \Microsoft SDK\bin 文件夹中的 Orca.msi 文件。
 
    您还需要安装程序文件的 MSI 变体。联系 Adobe 支持以接收最新版本的 MSI 安装程序。
@@ -179,7 +185,7 @@ AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 
 * 用户编辑并保存无保护的文档
 * 用户打开应用程序并打开默认文档，编辑，然后保存文档
 
-### 在 MSI 文件中配置自动应用策略功能 {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### 在 MSI 文件中配置自动应用策略功能  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 在开始之前，请预配置安装程序指向 LiveCycle 或 AEM Forms 服务器，如本文中前面所述。
 
@@ -293,7 +299,7 @@ AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 
 
 [获取文件](assets/templates.zip)
 
-### CommonResources.dll 文件的结构{#structure-of-the-commonresources-dll-file}
+### CommonResources.dll 文件的结构 {#structure-of-the-commonresources-dll-file}
 
 CommonResources.dll 文件包含有关资源模板的信息。它包含两个名称标识符 TEMPLATE_FILE 和 RT_MANIFEST。要启用自定义封面页，需要修改 TEMPLATE_FILE 名称标识符。TEMPLATE_FILE 名称标识符有六个资源：
 
@@ -357,7 +363,7 @@ CommonResources.dll 文件包含有关资源模板的信息。它包含两个名
    >
    >不要以随机顺序删除和添加资源类型。在 101 之后，配置 102，以此类推。
 
-### 将自定义 CommonResources.dll 文件打包到 AEM Document Security Extension for Microsoft Office 的安装程序中 {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### 将自定义 CommonResources.dll 文件打包到 AEM Document Security Extension for Microsoft Office 的安装程序中   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 可以自定义 CommonResources.dll 文件以添加自定义封面页。自定义文件之后，您可以在所有工作站上使用自定义文件手动替换原始文件，或者选择自动方法来替换文件。
 

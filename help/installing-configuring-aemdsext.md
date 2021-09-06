@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ AEM Document Security Extension for Microsoft Office 不支持 Microsoft Office 
 
 ### 自定义安装程序的先决条件 {#prerequisites-for-customizing-the-installer}
 
-使用 Orca 数据库编辑器自定义安装程序。以下步骤描述了如何使用 Orca 数据库编辑器，通过修改 MSI 安装文件的副本来创建自定义 MSI 文件。Orca作为适用于Windows Server 2008和.NET Framework 3.5的Windows SDK的一部分提供。
+使用 Orca 数据库编辑器自定义安装程序。以下步骤描述了如何使用 Orca 数据库编辑器，通过修改 MSI 安装文件的副本来创建自定义 MSI 文件。Orca 在适用于 Windows Server 2008 和 .NET Framework 3.5 的 Windows SDK 中提供。
 
 <!--
 
@@ -117,7 +117,7 @@ For more information about how to edit Microsoft Windows® Installer files using
 
 #### 安装 Orca {#install-orca}
 
-1. 下载适用于Windows Server 2008和.NET Framework 3.5的Windows SDK。
+1. 下载适用于 Windows Server 2008 和 .NET Framework 3.5 的 Windows SDK。
 1. 双击 \Microsoft SDK\bin 文件夹中的 Orca.msi 文件。
 
    您还需要安装程序文件的 MSI 变体。联系 Adobe 支持以接收最新版本的 MSI 安装程序。

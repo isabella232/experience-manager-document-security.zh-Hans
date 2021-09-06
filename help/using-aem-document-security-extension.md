@@ -7,7 +7,7 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6252'
 ht-degree: 100%
 
@@ -181,8 +181,7 @@ ht-degree: 100%
 在您注册并激活帐户之后，您可以使用通过策略向您提供了授权的受策略保护文件。
 
 >[!NOTE]
->
->如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
+如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
 
 如果您从 Document Security 收到了电子邮件注册邀请，则可以使用电子邮件中的 URL 打开在线注册页面以注册。在注册之后，您将收到有关激活帐户的第二个通知。
 
@@ -193,8 +192,7 @@ ht-degree: 100%
 1. 在对应的框中键入您的姓名、组织和密码。您的密码可以是任意八个字符的组合。
 
    >[!NOTE]
-   >
-   >请确保您选择了容易记住的密码，没有任何方法可以用于查找忘记的密码。
+   请确保您选择了容易记住的密码，没有任何方法可以用于查找忘记的密码。
 
 1. 单击&#x200B;**注册**。此时会显示一条消息，通知您检查电子邮件中的激活电子邮件消息。
 1. 打开 Document Security 注册确认电子邮件。
@@ -332,8 +330,7 @@ ht-degree: 100%
 在应用策略后，该策略将添加到 AEM Document Security 菜单的“最近使用”列表中，使您可以更轻松地应用最常用策略。如果您使用 Document Security 的多个实例，则“最近使用”列表仅显示您当前连接到服务器的策略，如果您尚未登录 Document Security 的实例，则显示默认服务器的策略。
 
 >[!NOTE]
->
->只能将策略应用到 Word 文档文件（.doc，还有 Microsoft Office 2010 和 2013 中的 .docx 和 .docm），Excel 工作簿文件（.xls，还有 Microsoft Office 2010 和 2013 中的 .xlsx 和 .xlsm），以及 PowerPoint 演示文稿文件（.ppt，还有 Microsoft Office 2010 和 2013 中的 .pptx 和 .pptm）。您无法将策略应用到 Word 模板文件 (.dot)、Excel 模板文件 (.xlt) 和 PowerPoint 设计模板文件 (.pot)。
+只能将策略应用到 Word 文档文件（.doc，还有 Microsoft Office 2010 和 2013 中的 .docx 和 .docm），Excel 工作簿文件（.xls，还有 Microsoft Office 2010 和 2013 中的 .xlsx 和 .xlsm），以及 PowerPoint 演示文稿文件（.ppt，还有 Microsoft Office 2010 和 2013 中的 .pptx 和 .pptm）。您无法将策略应用到 Word 模板文件 (.dot)、Excel 模板文件 (.xlt) 和 PowerPoint 设计模板文件 (.pot)。
 
 #### 应用策略 {#apply-a-policy}
 
@@ -364,8 +361,7 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
 如果您在使用受策略保护的文件，一些产品功能可能不可用或者可能无法正常使用。如果您还打开了无保护的文件，则会为无保护文件启用大部分功能，除了那些允许您从没有复制或导出权限的受策略保护文件导入或复制内容的功能。
 
 >[!NOTE]
->
->使用 Document Security Extension 支持的 Office 应用程序时，建议您禁用 Windows DEP 设置。此外，在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
+使用 Document Security Extension 支持的 Office 应用程序时，建议您禁用 Windows DEP 设置。此外，在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
 
 如果某个功能不可用，则菜单上的命令名称和相关的工具栏按钮将不可用。在 Document Security Extension for Microsoft Office 中，当您将鼠标指针悬停在命令或按钮上时，将会显示工具提示，指示 Document Security 使命令不可用。
 
@@ -392,8 +388,7 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
    如果还没有提供 Document Security 的登录信息，则对话框将提示您输入用户名和密码。
 
 >[!NOTE]
->
->如果您无法从您保护的文件上删除策略，请联系 Document Security 管理员。
+如果您无法从您保护的文件上删除策略，请联系 Document Security 管理员。
 
 ### 查看安全设置 {#viewing-security-settings}
 
@@ -405,15 +400,14 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
 
 * 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上的&#x200B;**安全状态**&#x200B;组中，单击任意项目。
 
-### 在启用了自动应用时保存文档 {#saving-documents-when-auto-apply-policy-is-enabled}
+### 在启用了自动应用策略时保存文档 {#saving-documents-when-auto-apply-policy-is-enabled}
 
 如果管理员启用了自动应用策略功能，则您创建或编辑的任意文档在保存文档时将自动受保护。
 
 如果启用了自动应用策略，Document Security Extension for Microsoft Office 将提示您登录 Document Security 服务器。您需要提供用户名和密码以由服务器进行身份验证。如果您提供了正确的登录凭据，则将保存和保护文档。
 
 >[!NOTE]
->
->如果您无法登录 Document Security，则文档可能会保存，也可能会不保存。这取决于管理员如何配置自动应用策略。请与管理员确认这种情况下会如何处理文档。
+如果您无法登录 Document Security，则文档可能会保存，也可能会不保存。这取决于管理员如何配置自动应用策略。请与管理员确认这种情况下会如何处理文档。
 
 ### 为离线访问同步 {#synchronizing-for-offline-access}
 
@@ -431,7 +425,7 @@ Document Security Extension for Microsoft Office 支持在受策略保护的文�
 
 Document Security Extension 不支持丰富水印功能，例如基于 PDF 的水印，水印中的多种元素、文本格式设置选项以及页面范围。
 
-您可以使用 Document Security 网页创建动态水印。有关在受策略保护文档中创建和包括动态水印的更多信息，请参阅 [Document Security 最终用户帮助](http://www.adobe.com/go/learn_lc_euRightsMgmt_11)。
+您可以使用 Document Security 网页创建动态水印。有关在受策略保护文档中创建和包括动态水印的更多信息，请参阅 [Document Security 最终用户帮助](http://www.adobe.com/go/learn_lc_euRightsMgmt_11_cn)。
 
 Document Security Extension for Microsoft Office 提供对这些水印功能的支持：
 
@@ -508,11 +502,11 @@ Document Security Extension for Microsoft Office 提供对这些水印功能的�
 
 1. 指定要显示的消息和更新版本的 URL（如果可用），然后单击&#x200B;**确定**。
 
-有关撤销文件访问权限的更多信息，请参阅 [Document Security 最终用户帮助](http://help.adobe.com/en_US/AEMForms/6.1/RMHelp/)。
+有关撤销文件访问权限的更多信息，请参阅 [Document Security 最终用户帮助](http://help.adobe.com/zh_CN/AEMForms/6.1/RMHelp/)。
 
 访问权限可以通过 Document Security 网页恢复。
 
-### 查看文件以查看审核历史记录 {#viewing-the-file-audit-history}
+### 查看文件审核历史记录 {#viewing-the-file-audit-history}
 
 Document Security 可以保存受策略保护文件的审核历史记录，这样您可以审核用户在文件上执行的操作。
 
@@ -551,8 +545,7 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 如果某个命令不可用，则菜单中的命令名称和相关的工具栏按钮将灰显。
 
 >[!NOTE]
->
->将策略应用到包含指向嵌入文件的链接的文件，不会将策略应用到链接的文件。Document Security for Microsoft Office 不会将保护扩展到链接的文件。
+将策略应用到包含指向嵌入文件的链接的文件，不会将策略应用到链接的文件。Document Security for Microsoft Office 不会将保护扩展到链接的文件。
 
 * 受策略保护的 Word、Excel 和 PowerPoint 文件会被阻止在 Internet Explorer 浏览器窗口中打开。
 * 仅授予了更改权限的用户无法从其他应用程序使用 Windows 剪贴板将内容复制到文件。用户可以通过启用 Microsoft Office 剪贴板选项将内容复制到文件。
@@ -790,4 +783,4 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 
 ## 术语表 {#glossary}
 
-有关 JEE 上 LiveCycle 和 AEM Forms 的术语，请参阅[术语表](http://www.adobe.com/go/learn_aemforms_designer_65)。
+有关 JEE 上 LiveCycle 和 AEM Forms 的术语，请参阅[术语表](http://www.adobe.com/go/learn_aemforms_designer_65_cn)。

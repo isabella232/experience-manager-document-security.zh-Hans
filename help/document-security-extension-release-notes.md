@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # AEM Document Security for Microsoft Office - 发行说明{#aem-document-security-for-microsoft-office-release-notes}
 
-## AEM Document Security for Microsoft Office 中的新增功能{#whats-new-in-aem-document-security-for-microsoft-office}
+## AEM Document Security for Microsoft Office 中的新增功能 {#whats-new-in-aem-document-security-for-microsoft-office}
 
 * **对 Office 2019 的支持**：Document Security Extension for Microsoft Office 已添加了对 Microsoft Office 2019 的支持。它还应该可以与作为 Office 365 一部分安装的 Microsoft Office 2019 桌面应用程序一起使用。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >本文档将互换使用术语 Adobe Experience Manager Document Security for Microsoft Office、Adobe Experience Manager Document Security Extension for Microsoft Office 和 Document Security Extension for Microsoft Office。
 
-## 安装和配置 AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+## 安装和配置 AEM Document Security Extension for Microsoft Office {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 此版本的 Document Security Extension for Microsoft Office 与 Adobe LiveCycle Rights Management ES2 和更高版本以及 AEM Forms 的 Document Security 插件兼容。
 
@@ -43,7 +43,7 @@ AEM Document Security Extension for Microsoft Office 不使用第三方插件。
 
 AEM Document Security Extension for Microsoft Office 使用内置的保护功能来保护文档、工作表和演示文稿。它禁用了一些 Excel、Word 和 PowerPoint 菜单选项。
 
-### Microsoft Office 2013、2016 和 2019 的限制{#restrictions-for-microsoft-office}
+### Microsoft Office 2013、2016 和 2019 的限制 {#restrictions-for-microsoft-office}
 
 在 Microsoft Office 中，在受保护的会话中以下选项不可用：
 
@@ -98,7 +98,7 @@ AEM Document Security Extension for Microsoft Office 使用内置的保护功能
 
 在具有使用不支持用语言的 Microsoft Office 应用程序的计算机上安装 Document Security Extension for Microsoft Office 之前，请至少打开一次 Office 应用程序。
 
-### “离线同步”按钮已启用，即使用户没有离线权限 {#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions}
+### “离线同步”按钮已启用，即使用户没有离线权限  {#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions}
 
 “离线同步”按钮可用，即使用户没有文档的离线权限。但是，选择该按钮没有任何效果。
 

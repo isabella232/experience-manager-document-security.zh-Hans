@@ -1,25 +1,25 @@
 ---
-title: 使用 AEM Document Security Extension for Microsoft Office
+title: 使用AEM Document Security Extension for Microsoft&reg;Office
 description: 无论受策略保护的文件的分布范围如何宽广，您都可以控制收件人使用受策略保护的文件的方式。本文档说明如何保护文件以及如何使用受保护的文件。
 uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: ht
-source-wordcount: '6252'
-ht-degree: 100%
+source-git-commit: f3456fa7243405a4986ac50540f8b578a6412a6c
+workflow-type: tm+mt
+source-wordcount: '6231'
+ht-degree: 77%
 
 ---
 
-# 使用 AEM Document Security Extension for Microsoft Office{#using-aem-document-security-extension-for-microsoft-office}
+# 使用AEM Document Security Extension for Microsoft® Office{#using-aem-document-security-extension-for-microsoft-office}
 
 ## 使用 AEM Document Security Extension 保护文件 {#usingaemdocumentsecurityextensiontoprotectfiles}
 
 无论受策略保护的文件的分布范围如何宽广，您都可以控制收件人使用受策略保护的文件的方式。
 
-使用 Document Security Extension for Microsoft Office，您可以执行以下任务：
+使用Microsoft® Office的Document Security Extension，您可以执行以下任务：
 
 * 配置与 Document Security 的连接
 * 应用策略到文件
@@ -27,21 +27,21 @@ ht-degree: 100%
 * 从文件中删除策略保护
 * 更改应用到文件的策略
 * 打开 Document Security 网页以撤销对文件的访问权限或更改文件的策略
-* 打开 Document Security 网页以查看文件的审核历史记录
+* 打开Document Security网页，以查看文件的审核历史记录
 
 ### 连接到 Document Security 服务器 {#connect-to-a-document-security-server}
 
-如果您要将策略应用到文件，则必须为 Document Security 配置连接设置。根据 Document Security Extension for Microsoft Office 的安装方式，您可能已有默认连接设置。您可以为 Document Security 的一个或多个实例添加连接设置。可从 Document Security 管理员获取服务器信息。
+如果您要将策略应用到文件，则必须为 Document Security 配置连接设置。根据Microsoft® Office的Document Security Extension安装方式，您可能已经具有默认连接设置。 您可以为 Document Security 的一个或多个实例添加连接设置。可从 Document Security 管理员获取服务器信息。
 
-您必须将用于保护文件或管理受保护文件的服务器设置为默认服务器。在将策略应用到新文件或者打开 Document Security 网页时，Document Security Extension for Microsoft Office 连接到默认服务器。如果您使用 Document Security 的多个实例保护文件，则在这些服务器之间切换时必须更改默认服务器设置。您可以打开受 Document Security 任意实例保护的文件，只要您获得了授权可以打开文件。
+将要用于保护文件或管理受保护文件的服务器设置为默认服务器。 当您将策略应用于新文件或打开Document Security网页时， Document Security Extension for Microsoft® Office会连接到默认服务器。 如果您使用 Document Security 的多个实例保护文件，则在这些服务器之间切换时必须更改默认服务器设置。您可以打开受 Document Security 任意实例保护的文件，只要您获得了授权可以打开文件。
 
-如果您的 Document Security 服务器采用基于证书的身份验证，则需要在本地计算机上安装您收到的证书。您需要选择证书身份验证，并提供要用于身份验证的证书。
+如果您的Document Security服务器使用基于证书的身份验证，则需要安装您在本地计算机中收到的证书。 您需要选择证书身份验证，并提供要用于身份验证的证书。
 
-在您在一个 Microsoft Office 应用程序中配置了 Document Security 实例的连接设置之后，这将为所有 Word、Excel 和 PowerPoint 进行配置。
+在一个Microsoft® Office应用程序中为文档安全实例配置连接设置后，将为所有Word、Excel和PowerPoint配置该实例。
 
 #### 安装客户端证书 {#install-the-client-side-certificate}
 
-如果您需要通过证书身份验证或双向身份验证访问 Document Security 网页，您将接收必须安装在本地计算机上的证书。您收到证书文件（.PFX 或 .P12 文件）及其密码。
+如果您需要通过证书身份验证或双向身份验证来访问Document Security网页，则会收到必须在本地计算机上安装的证书。 您收到证书文件（.PFX 或 .P12 文件）及其密码。
 
 1. 将证书文件保存在本地计算机上。
 1. 双击证书文件以打开证书导入向导，然后单击&#x200B;**下一步**。
@@ -52,13 +52,13 @@ ht-degree: 100%
 
 #### 配置连接设置 {#configure-connection-settings}
 
-1. 在 Document Security Extension for Microsoft Office 2010 和 Office 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**选择服务器**。
-1. 单击&#x200B;**新建**&#x200B;以创建新连接设置，或者选择现有连接并单击&#x200B;**编辑**。
+1. 在Microsoft® Office 2010和Office 2013的文档安全扩展中， **文档安全** 选项卡，选择 **选择服务器**.
+1. 单击 **新建** 要创建连接设置，或选择现有连接并单击 **编辑**.
 1. 在&#x200B;**名称**&#x200B;框中键入连接的名称。可以使用任意名称。
 1. 在&#x200B;**服务器地址**&#x200B;框中键入服务器的地址。
 1. 在&#x200B;**端口**&#x200B;框中键入服务器端口。
 1. （可选）如果您要记住用户名和密码，请选择&#x200B;**在这台计算机上记住密码**，然后在对应的框中键入您的用户名和密码。如果其他人可能会访问该计算机，建议您不要选择此选项。
-1. 单击&#x200B;**连接到此服务器**。Document Security Extension for Microsoft Office 尝试连接到您指定的服务器。根据指定的身份验证类型，执行以下操作：
+1. 单击&#x200B;**连接到此服务器**。Microsoft® Office的文档安全扩展会尝试连接到您指定的服务器。 根据指定的身份验证类型，执行以下操作：
 
    **用户名和密码**
 
@@ -72,23 +72,22 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果无法连接到服务器，请尝试在 Internet Explorer 中打开 Document Security 网页。如果无法使用 Internet Explorer 或如果对话框显示有关服务器证书的警告，则 Document Security Extension for Microsoft Office 无法连接到服务器。请联系服务器管理员寻求协助。
+>如果无法连接到服务器，请尝试在 Internet Explorer 中打开 Document Security 网页。如果您无法使用Internet Explorer连接到服务器，或者如果对话框显示有关服务器证书的警告，则Microsoft® Office的Document Security Extension将无法连接到服务器。 请联系服务器管理员寻求协助。
 
 >[!NOTE]
->
->如果无法连接到 Document Security，则会显示一条消息，说明“用户名和密码不正确，请检查配置设置并重试”。如果由于其他原因而无法连接，则会显示此消息。如果是首次连接到服务器，请确保您选择了正确的服务器名称和端口。
+如果无法连接到Document Security，则会显示一条消息，指出“用户名和密码不正确，请检查配置设置，然后重试”。 如果由于其他原因而无法连接，则会显示此消息。如果是首次连接到服务器，请确保您选择了正确的服务器名称和端口。
 
 #### 指定默认服务器 {#specify-the-default-server}
 
 1. 执行以下操作：
 
-   * 在 Document Security Extension for Microsoft Office 2010 和 Office 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**选择服务器**。
+   * 在Microsoft® Office 2010和Office 2013的文档安全扩展中， **文档安全** 选项卡，选择 **选择服务器**.
 
 1. 选择服务器以指定作为默认服务器，然后单击&#x200B;**设为默认值**。默认服务器旁边将显示一个星号。
 
 ### 使用第三方身份验证提供程序 {#using-third-party-authentication-providers}
 
-您可以使用随 AEM Forms Document Security 提供的第三方身份验证提供程序。这些身份验证提供程序帮助您将额外的访问层添加到受保护文档。AEM Forms Document Security 支持以下扩展的身份验证工作流：
+您可以使用随 AEM Forms Document Security 提供的第三方身份验证提供程序。这些身份验证提供程序可帮助您向受保护文档添加额外的访问层。 AEM Forms Document Security 支持以下扩展的身份验证工作流：
 
 * 使用默认 AEM Forms URL 的扩展身份验证
 * 使用自定义 URL 的扩展身份验证
@@ -110,8 +109,7 @@ ht-degree: 100%
    单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!NOTE]
-   >
-   >在 URL 中使用完全限定的主机名。建议使用 HTTPS 协议。
+   在 URL 中使用完全限定的主机名。建议使用 HTTPS 协议。
 
    现在，AEM Forms Document Security 配置为使用具有默认 AEM Forms 登录 URL 的扩展身份验证。
 
@@ -121,49 +119,48 @@ ht-degree: 100%
 
 可以为扩展身份验证使用自定义 URL。它提供了灵活性，可以显示具有自定义品牌的自定义身份验证页面。例如，您的组织的品牌。
 
-您可以将自定义身份验证文件打包到 war 文件中，然后将 war 文件部署到 AEM Forms 服务器。war 文件包含完整逻辑以接受用户凭据并对 AEM Forms 服务器进行身份验证。AEM Forms Document Security 对自定义身份验证页面具有以下要求：
+您可以将自定义身份验证页面打包到战争文件中，并将战争文件部署到AEM Forms Server。 战争文件包含接受用户凭据并针对AEM Forms Server进行身份验证的完整逻辑。 AEM Forms Document Security 对自定义身份验证页面具有以下要求：
 
 * 身份验证页面应该将用户名作为 j_username 发送，将密码作为 j_password 发送。页面还应该将 source_url 和 login_url 作为隐藏参数发送。
 * 在成功进行身份验证之后，页面应自动关闭。
 
-执行以下步骤以启用具有自定义登录 URL 的扩展身份验证：
+要使用自定义登陆URL启用扩展身份验证，请执行以下操作：
 
-1. 将自定义身份验证 war 文件部署到 AEM Forms 服务器。
+1. 将自定义身份验证战争文件部署到AEM Forms Server。
 1. 打开 AEM Forms 管理 UI。
 1. 导航到“服务”>“Document Security”>“配置”>“服务器配置”。
 1. 启用“允许扩展身份验证”选项并指定自定义扩展身份验证登录 URL。
-1. 将以下条目添加到 config.xml 文件中 SSO 节点下的条目 *&lt;node name=“AllowedUrls“>* 之后：
+1. 将以下条目添加到config.xml文件中，并在条目后添加到SSO节点下 *&lt;node name=&quot;AllowedUrls&quot;>*:
 
    >[!NOTE]
-   >
-   >&lt;entry key=”sso-l” value=”/ sample_/login.jsp”/>!!discoiqbr!!&lt;entry key=”sso-s” value=”/ sample_/welcome.jsp”>!!discoiqbr!!&lt;entry key=”sso-o” value=”/ sample_/logout.jsp”/>!!discoiqbr!!
+   &lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot; />!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot; />!!discoiqbr!!
 
    有关更新 config.xml 文件的分步信息，请参阅[手动编辑文档安全配置文件](https://helpx.adobe.com/cn/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file)。
 
    现在，AEM Forms Document Security 配置为使用具有自定义登录 URL 的扩展身份验证
 
-#### 在 AEM Forms 服务器上配置了使用第三方身份提供程序的默认扩展身份验证工作流 {#default-extended-authentication-workflow-with-third-party-identity-providers-configured-on-aem-forms-server}
+#### 使用在AEM Forms Server上配置的第三方身份提供程序的默认扩展身份验证工作流 {#default-extended-authentication-workflow-with-third-party-identity-providers-configured-on-aem-forms-server}
 
-扩展身份验证可以使用 AEM Forms 服务器上可用的不同类型的身份验证。例如，SAML，[还有更多示例吗]。
+扩展身份验证可以使用AEM Forms Server上可用的不同类型的身份验证。 例如，SAML，[还有更多示例吗]。
 
-注意：如果在 AEM Forms 服务器上配置了 SAML 提供程序，则在显示登录 URL 之前，将显示包含为 SAML 身份验证配置的所有身份提供程序的页面。
+注意：如果在AEM Forms Server上配置了SAML提供程序，则在显示登陆URL之前，将显示一个包含为SAML身份验证配置的所有身份提供程序的页面。
 
 在 Acrobat 中打开受保护文档时显示以下屏幕。
 
-#### 在 AEM Forms 服务器上配置了 SAML 提供程序的自定义扩展身份验证工作流 {#custom-extended-authentication-workflow-when-saml-providers-are-configured-on-aem-forms-server}
+#### 在AEM Forms服务器上配置SAML提供程序时，自定义扩展身份验证工作流 {#custom-extended-authentication-workflow-when-saml-providers-are-configured-on-aem-forms-server}
 
-如果在 AEM Forms 服务器上配置了 SAML 提供程序，则在显示登录 URL 之前，将显示包含为 SAML 身份验证配置的所有身份提供程序的页面。
+如果在AEM Forms Server上配置了SAML提供程序，则在显示登陆URL之前，将显示一个包含为SAML身份验证配置的所有身份提供程序的页面。
 
-在 AEM Forms 服务器上配置了 SAML 提供程序时配置自定义扩展身份验证工作流的先决条件：
+在AEM Forms服务器上配置SAML提供程序时，配置自定义扩展身份验证工作流的先决条件包括：
 
-* 在 AEM Forms 服务器上配置了 SAML 身份验证
-* 自定义 war（包含自定义身份验证页面和完整逻辑以接受用户凭据并对 AEM Forms 服务器进行身份验证）部署到 AEM Forms 服务器上。
+* 在AEM Forms服务器上配置SAML身份验证
+* 自定义战争(包含自定义身份验证页面和完整逻辑以接受用户凭据并针对AEM Forms Server进行身份验证)已部署到AEM Forms Server。
 
 #### 为列出 SAML 身份验证使用自定义页面 {#using-custom-page-for-listing-saml-authentications}
 
-您还可以显示自定义页面，以包括在 AEM Forms 服务器上配置的所有身份验证提供程序。执行以下步骤可创建此页面：
+您还可以显示自定义页面，以包含在AEM Forms Server上配置的所有身份验证提供程序。 要创建此类页面，请执行以下操作：
 
-1. 将自定义身份验证文件打包到 war 文件中，然后将 war 文件部署到 AEM Forms 服务器。war 文件包含完整逻辑以接受用户凭据并对 AEM Forms 服务器进行身份验证。
+1. 将自定义身份验证页面打包到战争文件中，并将战争文件部署到AEM Forms Server。 战争文件包含接受用户凭据并针对AEM Forms Server进行身份验证的完整逻辑。
 1. 打开 AEM Forms 管理 UI 并导航到&#x200B;**[!UICONTROL 设置]**> **[!UICONTROL 用户管理]** > **[!UICONTROL 配置]** > **[!UICONTROL SAML 服务提供程序配置]**。
 1. 将以下内容添加到“自定义属性”字段，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -181,8 +178,7 @@ ht-degree: 100%
 在您注册并激活帐户之后，您可以使用通过策略向您提供了授权的受策略保护文件。
 
 >[!NOTE]
->
->如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
+如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
 
 如果您从 Document Security 收到了电子邮件注册邀请，则可以使用电子邮件中的 URL 打开在线注册页面以注册。在注册之后，您将收到有关激活帐户的第二个通知。
 
@@ -193,8 +189,7 @@ ht-degree: 100%
 1. 在对应的框中键入您的姓名、组织和密码。您的密码可以是任意八个字符的组合。
 
    >[!NOTE]
-   >
-   >请确保您选择了容易记住的密码，没有任何方法可以用于查找忘记的密码。
+   请确保您选择了容易记住的密码，没有任何方法可以用于查找忘记的密码。
 
 1. 单击&#x200B;**注册**。此时会显示一条消息，通知您检查电子邮件中的激活电子邮件消息。
 1. 打开 Document Security 注册确认电子邮件。
@@ -323,7 +318,7 @@ ht-degree: 100%
  </tbody>
 </table>
 
-有关创建和管理策略的更多信息，请参阅 [Document Security 最终用户帮助](http://help.adobe.com/zh_CN/AEMForms/6.1/RMHelp/)。
+有关创建和管理策略的更多信息，请参阅 [Document Security 最终用户帮助](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/)。
 
 ### 应用策略 {#applying-policies}
 
@@ -332,12 +327,11 @@ ht-degree: 100%
 在应用策略后，该策略将添加到 AEM Document Security 菜单的“最近使用”列表中，使您可以更轻松地应用最常用策略。如果您使用 Document Security 的多个实例，则“最近使用”列表仅显示您当前连接到服务器的策略，如果您尚未登录 Document Security 的实例，则显示默认服务器的策略。
 
 >[!NOTE]
->
->只能将策略应用到 Word 文档文件（.doc，还有 Microsoft Office 2010 和 2013 中的 .docx 和 .docm），Excel 工作簿文件（.xls，还有 Microsoft Office 2010 和 2013 中的 .xlsx 和 .xlsm），以及 PowerPoint 演示文稿文件（.ppt，还有 Microsoft Office 2010 和 2013 中的 .pptx 和 .pptm）。您无法将策略应用到 Word 模板文件 (.dot)、Excel 模板文件 (.xlt) 和 PowerPoint 设计模板文件 (.pot)。
+您只能将策略应用于Word文档文件(Microsoft® Office 2010和2013中的.docx和.docm)、Microsoft® Office 2010和2013中的Excel工作簿文件(.xls、.xlsx和.xlsm)以及Microsoft® Office 2010和2013中的PowerPoint演示文稿文件(.ppt、.ptx和.ptm)。 您无法将策略应用到 Word 模板文件 (.dot)、Excel 模板文件 (.xlt) 和 PowerPoint 设计模板文件 (.pot)。
 
 #### 应用策略 {#apply-a-policy}
 
-1. 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**安全 > 选择策略**。
+1. 在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择 **安全>选择策略**.
 
    如果在服务器上选择用户名和密码作为身份验证方法并且还没有提供 Document Security 的登录信息，则对话框将提示您输入用户名和密码。
 
@@ -346,28 +340,27 @@ ht-degree: 100%
 
 #### 应用最近使用的策略 {#apply-a-recently-used-policy}
 
-1. 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择 **安全 > ***[策略名称]*。
+1. 在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择**安全> ***[策略名称]*.
 1. 保存文件。
 
 ## 使用受策略保护的文件 {#usingaemdocumentsecurityextensionpolicyprotectedfiles}
 
 受策略保护的文件包含由文件发布者拥有并受 Document Security 保护的知识产权。
 
-不论您在文件发布者组织的内容还是外部，您都可以使用受策略保护的文件。要打开受策略保护的文件，Document Security 必须可以通过以下方法识别您：包括在链接的 LDAP 或 Active Directory 列表中，添加作为 JEE 上 LiveCycle 或 AEM Forms 的本地用户，或者在收到邀请后注册为 Document Security 的用户。
+无论您是文件发布者组织的内部还是外部，都可以使用受策略保护的文件。 要打开受策略保护的文件，Document Security 必须可以通过以下方法识别您：包括在链接的 LDAP 或 Active Directory 列表中，添加作为 JEE 上 LiveCycle 或 AEM Forms 的本地用户，或者在收到邀请后注册为 Document Security 的用户。
 
 如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
 
-### 在 Microsoft Office 中使用受策略保护的文件 {#working-with-policy-protected-files-in-microsoft-office}
+### 在Microsoft® Office中使用受策略保护的文件 {#working-with-policy-protected-files-in-microsoft-office}
 
-Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 PowerPoint 功能以保护文件发布者的知识产权。如果您没有权限更改文件，则无法将修改保存到其中。
+Microsoft® Office的文档安全扩展可限制某些Word、Excel和PowerPoint功能，以保护文件发布者的知识产权。 如果您没有权限更改文件，则无法将修改保存到其中。
 
 如果您在使用受策略保护的文件，一些产品功能可能不可用或者可能无法正常使用。如果您还打开了无保护的文件，则会为无保护文件启用大部分功能，除了那些允许您从没有复制或导出权限的受策略保护文件导入或复制内容的功能。
 
 >[!NOTE]
->
->使用 Document Security Extension 支持的 Office 应用程序时，建议您禁用 Windows DEP 设置。此外，在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
+使用 Document Security Extension 支持的 Office 应用程序时，建议您禁用 Windows DEP 设置。此外，在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
 
-如果某个功能不可用，则菜单上的命令名称和相关的工具栏按钮将不可用。在 Document Security Extension for Microsoft Office 中，当您将鼠标指针悬停在命令或按钮上时，将会显示工具提示，指示 Document Security 使命令不可用。
+如果某个功能不可用，则菜单上的命令名称和相关的工具栏按钮将不可用。在Microsoft® Office的“文档安全扩展”中，当将鼠标指针悬停在命令或按钮上时，工具提示会指示“文档安全”使命令不可用。
 
 ### 打开受策略保护的文件 {#opening-policy-protected-files}
 
@@ -377,7 +370,7 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
 
 打开受保护文件时，文件名之后标题栏中的文本将说明文件受 AEM Document Security 保护。
 
-从 SharePoint Server 在 Document Security Extension for Microsoft Office 中打开受保护的文档时，请确保已打开与该文件类型关联的 Microsoft Office 程序，例如 Microsoft Word、Microsoft Excel 或 Microsoft PowerPoint。如果您尝试打开文件而没有打开关联的应用程序，则文档无法打开，并会显示错误消息，说明您必须安装适用的插件。除了打开所需应用程序之外，建议在从 SharePoint Server 在 Document Security Extension for Microsoft Office 中打开受保护的文档之前，清除缓存文件夹。此外，在从 SharePoint Server 打开受保护文档时，文档上的所有权限将禁用，不论应用了什么策略。
+在从SharePoint Server打开Microsoft® Office的Document Security Extension中的受保护文档时，请确保与文件类型(如Microsoft® Word、Microsoft® Excel或Microsoft® PowerPoint)关联的Microsoft® Office程序处于打开状态。 如果您尝试打开文件而没有打开关联的应用程序，则文档无法打开，并会显示错误消息，说明您必须安装适用的插件。除了打开所需的应用程序之外，还建议您在从SharePoint Server打开Document Security Extension for Microsoft® Office中的受保护文档之前清除缓存文件夹。 此外，在从 SharePoint Server 打开受保护文档时，文档上的所有权限将禁用，不论应用了什么策略。
 
 根据在 Document Security 上实施的身份验证方法，在您打开受保护文档时，系统可能会提示选择身份验证方法。如果 Document Security 支持多种身份验证方法，则会向您显示身份验证选项。例如，如果 Document Security 服务器提供用户名/密码和证书身份验证，您可以选择合适的身份验证方法。如果启用了基于证书的身份验证，系统会提示您使用已经收到并安装的证书。
 
@@ -387,33 +380,31 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
 
 如果允许，您可以从已受保护的文件中删除策略保护。如果这样做，该文件不再受 Document Security 的保护。
 
-1. 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**删除**。
+1. 在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择 **删除**.
 
    如果还没有提供 Document Security 的登录信息，则对话框将提示您输入用户名和密码。
 
 >[!NOTE]
->
->如果您无法从您保护的文件上删除策略，请联系 Document Security 管理员。
+如果您无法从您保护的文件上删除策略，请联系 Document Security 管理员。
 
 ### 查看安全设置 {#viewing-security-settings}
 
 您可以查看您对当前文件的权限以进行打印、复制、更改和离线访问，还可以查看文件有效期。
 
-在 Document Security Extension for Microsoft Office 2010 中，“Document Security”选项卡上的“安全状态”组显示您对文件的权限。
+在Microsoft® Office 2010的Document Security Extension中，“文档安全”选项卡上的“安全状态”组显示您对该文件的权限。
 
 执行以下操作：
 
-* 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上的&#x200B;**安全状态**&#x200B;组中，单击任意项目。
+* 在Microsoft® Office 2010和2013的文档安全扩展中， **“文档安全”选项卡**，在 **安全状态** 群组中，单击任意项目。
 
 ### 在启用了自动应用策略时保存文档 {#saving-documents-when-auto-apply-policy-is-enabled}
 
-如果管理员启用了自动应用策略功能，则您创建或编辑的任意文档在保存文档时将自动受保护。
+如果您的管理员已启用自动应用策略功能，则在您保存文档时，您创建或编辑的任何文档都将受到自动保护。
 
-如果启用了自动应用策略，Document Security Extension for Microsoft Office 将提示您登录 Document Security 服务器。您需要提供用户名和密码以由服务器进行身份验证。如果您提供了正确的登录凭据，则将保存和保护文档。
+如果启用了“自动应用”策略，则Document Security Extension for Microsoft® Office将提示您登录到Document Security服务器。 您必须提供用户名和密码，以便由服务器进行身份验证。 如果您提供了正确的登录凭据，则会保存并保护文档。
 
 >[!NOTE]
->
->如果您无法登录 Document Security，则文档可能会保存，也可能会不保存。这取决于管理员如何配置自动应用策略。请与管理员确认这种情况下会如何处理文档。
+如果您无法登录 Document Security，则文档可能会保存，也可能会不保存。这取决于管理员如何配置自动应用策略。请与管理员确认这种情况下会如何处理文档。
 
 ### 为离线访问同步 {#synchronizing-for-offline-access}
 
@@ -421,19 +412,19 @@ Document Security Extension for Microsoft Office 限制特定 Word、Excel 和 P
 
 执行以下操作：
 
-* 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**离线同步**。
+* 在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择 **脱机同步**.
 
    ***注意**：“离线同步”按钮可用，即使用户没有文档的离线权限。但是，选择该按钮没有任何效果。*
 
 ### 使用动态水印 {#working-with-dynamic-watermarks}
 
-Document Security Extension for Microsoft Office 支持在受策略保护的文档中包含基于动态文本的水印。动态水印可以包含可能会更改的信息，例如日期、时间、用户名或策略的名称。如果用户打印受策略保护的文件，并且该文件包含动态水印和打印的权限，则水印显示在输出中。
+Microsoft® Office的文档安全扩展支持在受策略保护的文档中包含基于文本的动态水印。 动态水印可以包含可能会更改的信息，例如日期、时间、用户名或策略的名称。如果用户打印受策略保护的文件，并且该文件包含动态水印和打印的权限，则水印显示在输出中。
 
 Document Security Extension 不支持丰富水印功能，例如基于 PDF 的水印，水印中的多种元素、文本格式设置选项以及页面范围。
 
-您可以使用 Document Security 网页创建动态水印。有关在受策略保护文档中创建和包括动态水印的更多信息，请参阅 [Document Security 最终用户帮助](http://www.adobe.com/go/learn_lc_euRightsMgmt_11_cn)。
+您可以使用 Document Security 网页创建动态水印。有关在受策略保护文档中创建和包括动态水印的更多信息，请参阅 [Document Security 最终用户帮助](https://www.adobe.com/go/learn_lc_euRightsMgmt_11)。
 
-Document Security Extension for Microsoft Office 提供对这些水印功能的支持：
+Microsoft® Office的文档安全扩展支持以下水印功能：
 
 <table>
  <thead>
@@ -482,7 +473,7 @@ Document Security Extension for Microsoft Office 提供对这些水印功能的�
 
 您可以打开 Document Security 网页以创建和更新用户策略，并查看受策略保护文件的状态和审核信息。还可以使用 Document Security 网页更改或撤销对受策略保护文件的访问权限。
 
-要打开 Document Security 网页，请在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上选择&#x200B;**创建和管理策略**。如果您尚未提供登录信息，浏览器会打开服务器登录页面。
+要打开“文档安全”网页，请在Document Security Extension for Microsoft® Office 2010 and 2013中，通过 **文档安全** 选项卡，选择 **创建和管理策略**. 如果您尚未提供登录信息，浏览器会打开服务器登录页面。
 
 ### 更改策略 {#changing-policies}
 
@@ -492,7 +483,7 @@ Document Security Extension for Microsoft Office 提供对这些水印功能的�
 
 1. 执行以下操作：
 
-   * 在 Document Security Extension for Microsoft Office 2010 或 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**安全 > 更改安全性**。
+   * 在Microsoft® Office 2010或2013的文档安全扩展中， **文档安全** 选项卡，选择 **安全>更改安全**.
 
 1. 从列表中选择策略并单击&#x200B;**应用**。
 
@@ -502,13 +493,13 @@ Document Security Extension for Microsoft Office 提供对这些水印功能的�
 
 1. 执行以下操作：
 
-   * 在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**撤销**。
+   * 在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择 **撤销**.
 
    Document Security 网页打开到“撤销文档”页面。
 
 1. 指定要显示的消息和更新版本的 URL（如果可用），然后单击&#x200B;**确定**。
 
-有关撤销文件访问权限的更多信息，请参阅 [Document Security 最终用户帮助](http://help.adobe.com/zh_CN/AEMForms/6.1/RMHelp/)。
+有关撤销文件访问权限的更多信息，请参阅 [Document Security 最终用户帮助](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/)。
 
 访问权限可以通过 Document Security 网页恢复。
 
@@ -538,32 +529,31 @@ Word、Excel 和 PowerPoint 文件的审核事件包括：
 
 ### 查看文件的审核历史记录 {#view-the-audit-history-for-a-file}
 
-在 Document Security Extension for Microsoft Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**审核历史记录**。
+在Microsoft® Office 2010和2013的文档安全扩展中， **文档安全** 选项卡，选择 **审核历史记录**.
 
 Document Security 网页打开到“事件”页面，其中显示当前文件的已审核事件。
 
-### Microsoft Office 限制功能 {#microsoft-office-restricted-features}
+### Microsoft® Office受限功能 {#microsoft-office-restricted-features}
 
-为保护您的知识产权，打开受策略保护的文件时，一些 Microsoft Office 功能不可用。不可用的功能列表取决于向当前用户授予的权限。一些功能仅对受保护文件不可用，另一些则在受保护会话中对所有文件不可用。通常，从打开受策略保护文件开始直到关闭应用程序或会话到期为止，您处于受保护会话中。
+为保护您的知识产权，在打开受策略保护的文件时，某些Microsoft® Office功能将不可用。 不可用的功能列表取决于向当前用户授予的权限。一些功能仅对受保护文件不可用，另一些则在受保护会话中对所有文件不可用。通常，从打开受策略保护文件开始直到关闭应用程序或会话到期为止，您处于受保护会话中。
 
 大部分策略将完整权限授予文件发布者。其他用户可能会发现额外的功能限制。
 
 如果某个命令不可用，则菜单中的命令名称和相关的工具栏按钮将灰显。
 
 >[!NOTE]
->
->将策略应用到包含指向嵌入文件的链接的文件，不会将策略应用到链接的文件。Document Security for Microsoft Office 不会将保护扩展到链接的文件。
+将策略应用到包含指向嵌入文件的链接的文件，不会将策略应用到链接的文件。Microsoft® Office的文档安全不会将保护扩展到链接的文件。
 
 * 受策略保护的 Word、Excel 和 PowerPoint 文件会被阻止在 Internet Explorer 浏览器窗口中打开。
-* 仅授予了更改权限的用户无法从其他应用程序使用 Windows 剪贴板将内容复制到文件。用户可以通过启用 Microsoft Office 剪贴板选项将内容复制到文件。
-* 在 Microsoft Office 中打开受策略保护的文件会使 Print Screen 键不可用，直至关闭应用程序或会话到期。
-* Document Security for Microsoft Office 不支持基于 Web 的分布式创作和版本控制 (WebDAV)。在大多数情况下，您无法从 WebDAV 文件夹打开受策略保护的文件。如果您可以打开受策略保护的文件，您没有权限来保存、打印、更改或复制文件。
+* 仅授予了更改权限的用户无法从其他应用程序使用 Windows 剪贴板将内容复制到文件。用户可以通过启用“Microsoft® Office剪贴板”选项将内容复制到文件。
+* 在Microsoft® Office中打开受策略保护的文件会使打印屏幕密钥在您关闭应用程序或会话过期之前不可用。
+* Microsoft® Office的文档安全不支持基于Web的分布式创作和版本控制(WebDAV)。 通常，无法从WebDAV文件夹打开受策略保护的文件。 如果您可以打开受策略保护的文件，您没有权限来保存、打印、更改或复制文件。
 
-应用到受策略保护的文件的一般安全性包括以下限制：
+适用于受策略保护文件的一般安全性包括以下限制：
 
 在受保护会话期间，Word、Excel 和 PowerPoint 可能会限制多种常用功能。
 
-如果打开了不允许用户进行更改的受策略保护文件，以任何方式更改文件的命令不可用。只有打开或创建新文档的命令以及更改应用程序首选项的命令可用。
+如果打开了不允许用户对其进行更改的受策略保护的文件，则以任何方式更改该文件的命令将不可用。 只有打开或创建文档并更改应用程序首选项的命令才可用。
 
 #### Word 2010 和 Word 2013 限制 {#word-2010-and-word-2013-restrictions}
 
@@ -585,7 +575,7 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 
 **文件 > 工作流** 在受保护会话期间不可用。
 
-***注意&#x200B;**：从 Word、Excel 和 PowerPoint 的 2010 Microsoft Office 系统版本启动工作流的功能仅在 Office Professional Plus 2010、Office Enterprise 2010 和 Office Ultimate 2010 套件中可用，以及在这些程序的独立 2010 Office 发行版中可用。*
+***注释&#x200B;**:从2010年Microsoft® Office系统版本的Word、Excel和PowerPoint启动工作流的功能仅在Office Professional Plus 2010、Office Enterprise 2010和Office Ultimate 2010套件以及这些计划的独立2010 Office版本中可用。*
 
 **博客文章 > 发布** 在受保护会话期间不可用。
 
@@ -660,11 +650,11 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 
 **文件 > 工作流** 在受保护会话期间不可用。
 
-***注意&#x200B;**：从 Word、Excel 和 PowerPoint 的 2010 Microsoft Office 系统版本启动工作流的功能仅在 Office Professional Plus 2010、Office Enterprise 2010 和 Office Ultimate 2010 套件中可用，以及在这些程序的独立 2010 Office 发行版中可用。*
+***注释&#x200B;**:从2010年Microsoft® Office系统版本的Word、Excel和PowerPoint启动工作流的功能仅在Office Professional Plus 2010、Office Enterprise 2010和Office Ultimate 2010套件以及这些计划的独立2010 Office版本中可用。*
 
 **文件 > 服务器 > 文件服务器任务菜单** 在受保护会话期间不可用。
 
-**主页 > 剪贴板 > 复制** 受复制权限限制。如果不允许复制，则复制的内容无法粘贴到任何其他文件或者 Microsoft Office 剪贴板中。如果用户具有更改权限，则可以在受保护文件中复制内容。
+**主页 > 剪贴板 > 复制** 受复制权限限制。如果不允许复制，则复制的内容将无法粘贴到任何其他文件或Microsoft® Office剪贴板中。 如果用户具有更改权限，则可以在受保护文件中复制内容。
 
 **主页 > 剪贴板 > 粘贴** 受更改权限限制。
 
@@ -780,7 +770,7 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 
 ## 使用第三方身份验证提供程序 {#use-third-party-authentication-providers}
 
-您可以使用随 AEM Forms Document Security 提供的第三方身份验证提供程序。这些身份验证提供程序帮助您将额外的访问层添加到受保护文档。AEM Forms Document Security 支持以下扩展的身份验证工作流：
+您可以使用随 AEM Forms Document Security 提供的第三方身份验证提供程序。这些身份验证提供程序可帮助您向受保护文档添加额外的访问层。 AEM Forms Document Security 支持以下扩展的身份验证工作流：
 
 * 使用默认 AEM Forms URL 的扩展身份验证
 * 使用自定义 URL 的扩展身份验证
@@ -790,4 +780,4 @@ Document Security 网页打开到“事件”页面，其中显示当前文件�
 
 ## 术语表 {#glossary}
 
-有关 JEE 上 LiveCycle 和 AEM Forms 的术语，请参阅[术语表](http://www.adobe.com/go/learn_aemforms_designer_65_cn)。
+有关JEE术语上的LiveCycle和AEM表单的信息，请参阅 [第19章：术语表](https://www.adobe.com/go/learn_aemforms_designer_65).

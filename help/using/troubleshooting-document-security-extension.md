@@ -8,7 +8,7 @@ topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -36,8 +36,8 @@ Windows 注册表中的 LoadBehavior 属性指定文档安全插件的运行时�
 
 ## 管理任务疑难解答 {#admintasks}
 
-此部分讨论安装 AEM Document Security Extension 时的可能问题。
+此部分讨论所安装的 AEM Document Security Extension 可能发生的问题。
 
-### Microsoft Office 应用程序在安装 Document Security Extension 时不会顺利启动 {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
+### 安装 Document Security Extension 后 Microsoft Office 应用程序无法顺畅启动 {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
 
-在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
+为了确保 Office 应用程序在装有 Document Security Extension 以及启用了 On-Access Scan 的 McAfee VirusScan 的计算机上可顺畅启动，请禁用 McAfee VirusScan 控制台中禁用“缓冲区溢出保护”选项。

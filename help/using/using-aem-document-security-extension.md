@@ -7,8 +7,8 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '6231'
+workflow-type: ht
+source-wordcount: '6242'
 ht-degree: 100%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 100%
 >如果无法连接到服务器，请尝试在 Internet Explorer 中打开 Document Security 网页。如果无法使用 Internet Explorer 连接到服务器或如果有对话框显示关于服务器证书的警告，则 Document Security Extension for Microsoft® Office 无法连接到服务器。请联系服务器管理员寻求协助。
 
 >[!NOTE]
+>
 >如果无法连接到 Document Security，则显示一条消息，其中表示“用户名和密码不正确，请检查配置设置并重试”。如果由于其他原因而无法连接，则会显示此消息。如果是首次连接到服务器，请确保您选择了正确的服务器名称和端口。
 
 #### 指定默认服务器 {#specify-the-default-server}
@@ -109,6 +110,7 @@ ht-degree: 100%
    单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!NOTE]
+   >
    >在 URL 中使用完全限定的主机名。建议使用 HTTPS 协议。
 
    现在，AEM Forms Document Security 配置为使用具有默认 AEM Forms 登录 URL 的扩展身份验证。
@@ -133,6 +135,7 @@ ht-degree: 100%
 1. 将以下条目添加到 config.xml 文件中 SSO 节点下的条目 *&lt;node name=&quot;AllowedUrls&quot;>* 之后：
 
    >[!NOTE]
+   >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    有关更新 config.xml 文件的分步信息，请参阅[手动编辑文档安全配置文件](https://helpx.adobe.com/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file)。
@@ -178,6 +181,7 @@ ht-degree: 100%
 在您注册并激活帐户之后，您可以使用通过策略向您提供了授权的受策略保护文件。
 
 >[!NOTE]
+>
 >如果您收到受策略保护的文件并且没有 Document Security 帐户，或者您收到了邀请来注册，请联系向您发送文件的人以获取帮助。
 
 如果您从 Document Security 收到了电子邮件注册邀请，则可以使用电子邮件中的 URL 打开在线注册页面以注册。在注册之后，您将收到有关激活帐户的第二个通知。
@@ -189,6 +193,7 @@ ht-degree: 100%
 1. 在对应的框中键入您的姓名、组织和密码。您的密码可以是任意八个字符的组合。
 
    >[!NOTE]
+   >
    >请确保您选择了容易记住的密码，没有任何方法可以用于查找忘记的密码。
 
 1. 单击&#x200B;**注册**。此时会显示一条消息，通知您检查电子邮件中的激活电子邮件消息。
@@ -327,6 +332,7 @@ ht-degree: 100%
 在应用策略后，该策略将添加到 AEM Document Security 菜单的“最近使用”列表中，使您可以更轻松地应用最常用策略。如果您使用 Document Security 的多个实例，则“最近使用”列表仅显示您当前连接到服务器的策略，如果您尚未登录 Document Security 的实例，则显示默认服务器的策略。
 
 >[!NOTE]
+>
 >只能将策略应用于 Word 文档文件（.doc，还有 Microsoft® Office 2010 和 2013 中的 .docx 和 .docm）、Excel 工作簿文件（.xls，还有 Microsoft® Office 2010 和 2013 中的 .xlsx 和 .xlsm）和 PowerPoint 演示文稿文件（.ppt，还有 Microsoft® Office 2010 和 2013 中的 .pptx 和 .pptm）。而无法将策略应用于 Word 模板文件 (.dot)、Excel 模板文件 (.xlt) 和 PowerPoint 设计模板文件 (.pot)。
 
 #### 应用策略 {#apply-a-policy}
@@ -358,6 +364,7 @@ Document Security Extension for Microsoft® Office 限制特定 Word、Excel 和
 如果您在使用受策略保护的文件，一些产品功能可能不可用或者可能无法正常使用。如果您还打开了无保护的文件，则会为无保护文件启用大部分功能，除了那些允许您从没有复制或导出权限的受策略保护文件导入或复制内容的功能。
 
 >[!NOTE]
+>
 >使用 Document Security Extension 支持的 Office 应用程序时，建议您禁用 Windows DEP 设置。此外，在安装了 Document Security Extension 并为 McAfee VirusScan 启用了 On-Access Scan 的计算机上，为了确保 Office 应用程序顺利启动，请在 McAfee VirusScan 控制台中禁用 Buffer Overflow Protection 选项。
 
 如果某个功能不可用，则菜单上的命令名称和相关的工具栏按钮将不可用。在 Document Security Extension for Microsoft® Office 中，当您将鼠标指针悬停在命令或按钮上时，将显示一个工具提示，表示 Document Security 使命令不可用。
@@ -385,6 +392,7 @@ Document Security Extension for Microsoft® Office 限制特定 Word、Excel 和
    如果还没有提供 Document Security 的登录信息，则对话框将提示您输入用户名和密码。
 
 >[!NOTE]
+>
 >如果您无法从您保护的文件上删除策略，请联系 Document Security 管理员。
 
 ### 查看安全设置 {#viewing-security-settings}
@@ -404,6 +412,7 @@ Document Security Extension for Microsoft® Office 限制特定 Word、Excel 和
 如果启用了自动应用策略，则 Document Security Extension for Microsoft® Office 提示您登录到 Document Security 服务器。您必须提供用户名和密码以供服务器进行身份验证。如果提供了正确的登录凭据，则将保存并保护该文档。
 
 >[!NOTE]
+>
 >如果您无法登录 Document Security，则文档可能会保存，也可能会不保存。这取决于管理员如何配置自动应用策略。请与管理员确认这种情况下会如何处理文档。
 
 ### 为离线访问同步 {#synchronizing-for-offline-access}
@@ -414,7 +423,7 @@ Document Security Extension for Microsoft® Office 限制特定 Word、Excel 和
 
 * 在 Document Security Extension for Microsoft® Office 2010 和 2013 中，在 **Document Security** 选项卡上，选择&#x200B;**离线同步**。
 
-   ***注意**：“离线同步”按钮可用，即使用户没有文档的离线权限。但是，选择该按钮没有任何效果。*
+  ***注意**：“离线同步”按钮可用，即使用户没有文档的离线权限。但是，选择该按钮没有任何效果。*
 
 ### 使用动态水印 {#working-with-dynamic-watermarks}
 
@@ -542,6 +551,7 @@ Word、Excel 和 PowerPoint 文件的审核事件包括：
 如果某个命令不可用，则菜单中的命令名称和相关的工具栏按钮将灰显。
 
 >[!NOTE]
+>
 >将策略应用到包含指向嵌入文件的链接的文件，不会将策略应用到链接的文件。Document Security for Microsoft® Office 并不将保护延伸到链接的文件。
 
 * 受策略保护的 Word、Excel 和 PowerPoint 文件会被阻止在 Internet Explorer 浏览器窗口中打开。
